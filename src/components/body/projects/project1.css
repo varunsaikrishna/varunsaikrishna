@@ -1,0 +1,41 @@
+.containerp {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardp {
+  position: relative;
+  min-width: 340px;
+  flex-basis: 15%; /* Set each card to occupy 25% of the container's width */
+  max-width: 15%; /* Set maximum width for each card */
+  box-sizing: border-box;
+  left: 0px;
+  padding: 20px;
+  box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #01152b;
+  margin-bottom: 30px;
+}
+/* .cardp:not(:first-child) {
+  margin-left: -50px;
+} */
+
+.cardp a {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 720px) {
+  .cardp:hover {
+    transform: translateY(-20px);
+  }
+  .cardp:hover ~ .cardp {
+    left: 50px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cardp {
+    min-width: 300px;
+  }
+}

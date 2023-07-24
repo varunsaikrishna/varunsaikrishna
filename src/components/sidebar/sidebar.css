@@ -1,0 +1,83 @@
+.emailright {
+  bottom: 50%;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace !important;
+  right: 110px;
+  width: 20px;
+  height: 200px;
+  position: fixed;
+  color: #ffcb64;
+  font-size: 19px;
+  line-height: 1.2;
+  white-space: nowrap;
+  transform: rotate(-270deg);
+}
+/* .imageLineR{
+   
+    top: 50%;
+    position: fixed;
+} */
+.stick_follow_icon {
+  top: 50%;
+  left: 30px;
+  width: 20px;
+  height: 200px;
+  position: fixed;
+  margin-top: -100px;
+  color: #ffcb64;
+}
+
+.stick_follow_icon ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stick_follow_icon p {
+  top: 70px;
+  left: -7px;
+  width: 68px;
+  height: 20px;
+  color: #ffcb64;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  position: relative;
+  transform: rotate(-90deg);
+}
+
+.stick_follow_icon ul li {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.stick_follow_icon p:after {
+  top: 9px;
+  right: -48px;
+  width: 40px;
+  height: 1px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #ffcb64;
+}
+
+.imagelineL {
+  left: 24px;
+  width: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 1026px) {
+  .stick_follow_icon {
+    display: none;
+  }
+  .emailright {
+    display: none;
+  }
+}

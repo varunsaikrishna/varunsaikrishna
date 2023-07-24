@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/9007ffaa-7888-46c7-a684-67b31d738bd3/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/shanmukhchowdary",
+    "appService.deploySubpath": "build"
+}

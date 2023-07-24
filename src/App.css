@@ -1,0 +1,175 @@
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80vw;
+  transform: translate(-50%, -50%);
+  animation: fill 4s ease forwards 4s;
+}
+
+/* animation: logofade 1s ease forwards 10s; */
+
+#logo path:nth-child(0) {
+  stroke-dasharray: 530.84px;
+  stroke-dashoffset: 530.84px;
+  animation: line-anim 4s ease forwards 0.1s;
+}
+#logo path:nth-child(1) {
+  stroke-dasharray: 530.84px;
+  stroke-dashoffset: 530.84px;
+  animation: line-anim 4s ease forwards 0.1s;
+}
+#logo path:nth-child(2) {
+  stroke-dasharray: 530.84px;
+  stroke-dashoffset: 530.84px;
+  animation: line-anim 2s ease forwards 0.2s;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 423.36px;
+  stroke-dashoffset: 423.36px;
+  animation: line-anim 2s ease forwards 0.4s;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 371.08px;
+  stroke-dashoffset: 371.08px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 578.25px;
+  stroke-dashoffset: 578.25px;
+  animation: line-anim 2s ease forwards 0.8s;
+}
+#logo path:nth-child(6) {
+  stroke-dasharray: 630.79px;
+  stroke-dashoffset: 630.79px;
+  animation: line-anim 2s ease forwards 1s;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 428.48px;
+  stroke-dashoffset: 428.48px;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(8) {
+  stroke-dasharray: 430.84px;
+  stroke-dashoffset: 430.84px;
+  animation: line-anim 2s ease forwards 1.4s;
+}
+#logo path:nth-child(9) {
+  stroke-dasharray: 480.29px;
+  stroke-dashoffset: 480.29px;
+  animation: line-anim 2s ease forwards 1.6s;
+}
+#logo path:nth-child(10) {
+  stroke-dasharray: 450.29px;
+  stroke-dashoffset: 450.29px;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+#logo path:nth-child(11) {
+  stroke-dasharray: 473.29px;
+  stroke-dashoffset: 473.29px;
+  animation: line-anim 2s ease forwards 2s;
+}
+#logo path:nth-child(12) {
+  stroke-dasharray: 540.38px;
+  stroke-dashoffset: 540.38px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(13) {
+  stroke-dasharray: 493.38px;
+  stroke-dashoffset: 493.38px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(14) {
+  stroke-dasharray: 393.38px;
+  stroke-dashoffset: 393.38px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(15) {
+  stroke-dasharray: 393.38px;
+  stroke-dashoffset: 393.38px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(16) {
+  stroke-dasharray: 393.38px;
+  stroke-dashoffset: 393.38px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fill {
+  0% {
+    fill: transparent;
+  }
+  50% {
+    fill: #01152b;
+  }
+  75% {
+    fill: #01152b;
+  }
+  100% {
+    opacity: 0%;
+    fill: #01152b;
+  }
+}
+
+@keyframes logofade {
+  to {
+    opacity: 0%;
+  }
+}
+.namediv {
+  position: absolute;
+  inset: 0;
+  background-color: #01152b;
+  opacity: 100%;
+  animation: logofade 6s ease forwards 5s;
+  overflow: x;
+  pointer-events: none;
+  z-index: 100;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#hide {
+  display: none;
+}
