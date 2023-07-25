@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/varunsaikrishna/static/css/main.2cd19369.css",
-    "main.js": "/varunsaikrishna/static/js/main.441980a0.js",
+    "main.js": "/varunsaikrishna/static/js/main.31d25e5b.js",
     "static/js/787.fec03637.chunk.js": "/varunsaikrishna/static/js/787.fec03637.chunk.js",
     "static/media/vsk.jpg": "/varunsaikrishna/static/media/vsk.1b2aa7b48d93ba501fc2.jpg",
     "static/media/coding.png": "/varunsaikrishna/static/media/coding.acd987a938fd5f7dbfae.png",
-    "static/media/resume.pdf": "/varunsaikrishna/static/media/resume.544eb90c01a5f8aec289.pdf",
+    "static/media/resume.pdf": "/varunsaikrishna/static/media/resume.38e7313f16f316610571.pdf",
     "static/media/logo.svg": "/varunsaikrishna/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/varunsaikrishna/index.html",
     "static/media/social-media-arrow.svg": "/varunsaikrishna/static/media/social-media-arrow.ff38fd0007cda06a92ffb470aab5003a.svg",
     "main.2cd19369.css.map": "/varunsaikrishna/static/css/main.2cd19369.css.map",
-    "main.441980a0.js.map": "/varunsaikrishna/static/js/main.441980a0.js.map",
+    "main.31d25e5b.js.map": "/varunsaikrishna/static/js/main.31d25e5b.js.map",
     "787.fec03637.chunk.js.map": "/varunsaikrishna/static/js/787.fec03637.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cd19369.css",
-    "static/js/main.441980a0.js"
+    "static/js/main.31d25e5b.js"
   ]
 }
