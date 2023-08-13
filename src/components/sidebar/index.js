@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Socialicons() {
   const emailClick = () => {
-    window.location.assign("mailto:shanmukhchowdary147@gmail.com");
+    window.location.assign("mailto:varunsaikrishna056514@gmail.com");
   };
   return (
     <div>
