@@ -1,33 +1,42 @@
-# Hi, I'm Varun 👋
+# Hi, I'm Varun 👋  
 
-I’m a Software Engineer interested in **backend systems, machine learning, and data-driven applications**.
+Software Engineer passionate about building **scalable full-stack applications** and **robust backend systems**.
 
-- 🎓 M.S. in Computer Science (in progress)
-- 💻 I like working with **Java, Spring Boot, Python, ML, SQL, React, AWS**
-- 📊 I enjoy building projects around **ML, data analysis, and real-world applications**
+I enjoy turning ideas into reliable software — from clean APIs and databases to responsive web interfaces.
 
-## 🔬 Featured Projects
+---
 
-- 🕵️‍♂️ [fake-reviews-detector](https://github.com/varunsaikrishna/fake-reviews-detector)  
-  Machine learning system to detect fake Yelp reviews with Naive Bayes and NLP.
+## 🧰 Tech Stack
 
-- 🧬 [biomedical-image-classification](https://github.com/varunsaikrishna/biomedical-image-classification)  
-  Deep learning pipeline for biomedical image classification with evaluation and visualizations.
+**Languages:** Java, Python, C++, JavaScript  
+**Frontend:** React, HTML, CSS  
+**Backend:** Spring Boot, Flask, REST APIs  
+**Databases:** MySQL, SQLite  
+**Tools:** Git, Maven, npm  
 
-- 📈 [health-data-statistical-analysis](https://github.com/varunsaikrishna/health-data-statistical-analysis)  
-  Statistical analysis and modeling on health-related datasets.
+---
 
-- 🎬 [movie-finder](https://github.com/varunsaikrishna/movie-finder)  
-  Frontend app to browse/search movies.
+## 🚀 Featured Projects
 
-## 🛠 Tech Stack
+### 🧭 Community Lost & Found App  
+Full-stack web application built with **React + Spring Boot + MySQL** to help users report, search, and recover lost items.  
+➡️ Real-world CRUD, REST APIs, database-backed workflows.
 
-- **Languages:** Java, Python, JavaScript
-- **Backend:** Spring Boot, Django, REST APIs
-- **ML/Data:** scikit-learn, pandas, NumPy, Jupyter
-- **Frontend:** React, HTML/CSS/JS
-- **Tools & Cloud:** Git, GitHub, AWS, Docker
+### 🏦 Banking System (C++)  
+Object-oriented **C++** console application for managing bank accounts, transactions, and persistent data using file I/O.  
+➡️ Demonstrates OOP, data handling, and system-level programming.
 
-## 📫 How to reach me
+### 🐾 PetPal *(coming next)*  
+Flask-based full-stack app for pet listings, search, favorites, image uploads, and admin workflows.
 
-- [LinkedIn](https://www.linkedin.com/in/varunsaikrishna)
+---
+
+## 📈 What I’m working on
+- Improving system design & scalability  
+- Writing cleaner APIs and data models  
+- Making projects more production-ready  
+
+---
+
+## 📫 Let’s connect
+Add your LinkedIn or email here.
