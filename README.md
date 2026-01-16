@@ -39,4 +39,5 @@ Flask-based full-stack app for pet listings, search, favorites, image uploads, a
 ---
 
 ## 📫 Let’s connect
-Add your LinkedIn or email here.
+Email - varunsaikrishna056514@gmail.com
+LinkedIn - https://www.linkedin.com/in/varunsaikrishna/
